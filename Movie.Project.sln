@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A25AAD46-EDA9-4A9B-99A9-B7854DEDAA1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movie.Api", "Movie.Api\Movie.Api.csproj", "{74B0F0CC-0076-40DE-B88E-7561D9B75775}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{104F4C21-E554-4F69-9DBF-512607E50807}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+		readme.md = readme.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movie.Application", "Movie.Application\Movie.Application.csproj", "{931C7AC6-DE20-43A0-8D72-4E8491278866}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movie.Domain", "Movie.Domain\Movie.Domain.csproj", "{468A00CC-98C2-4968-9134-56D04896727F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movie.Infra", "Movie.Infra\Movie.Infra.csproj", "{D21475D1-F1C6-469C-851D-F1C368DE2242}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{74B0F0CC-0076-40DE-B88E-7561D9B75775} = {A25AAD46-EDA9-4A9B-99A9-B7854DEDAA1E}
+		{931C7AC6-DE20-43A0-8D72-4E8491278866} = {A25AAD46-EDA9-4A9B-99A9-B7854DEDAA1E}
+		{468A00CC-98C2-4968-9134-56D04896727F} = {A25AAD46-EDA9-4A9B-99A9-B7854DEDAA1E}
+		{D21475D1-F1C6-469C-851D-F1C368DE2242} = {A25AAD46-EDA9-4A9B-99A9-B7854DEDAA1E}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74B0F0CC-0076-40DE-B88E-7561D9B75775}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74B0F0CC-0076-40DE-B88E-7561D9B75775}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74B0F0CC-0076-40DE-B88E-7561D9B75775}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74B0F0CC-0076-40DE-B88E-7561D9B75775}.Release|Any CPU.Build.0 = Release|Any CPU
+		{931C7AC6-DE20-43A0-8D72-4E8491278866}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{931C7AC6-DE20-43A0-8D72-4E8491278866}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{931C7AC6-DE20-43A0-8D72-4E8491278866}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{931C7AC6-DE20-43A0-8D72-4E8491278866}.Release|Any CPU.Build.0 = Release|Any CPU
+		{468A00CC-98C2-4968-9134-56D04896727F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{468A00CC-98C2-4968-9134-56D04896727F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{468A00CC-98C2-4968-9134-56D04896727F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{468A00CC-98C2-4968-9134-56D04896727F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D21475D1-F1C6-469C-851D-F1C368DE2242}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D21475D1-F1C6-469C-851D-F1C368DE2242}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D21475D1-F1C6-469C-851D-F1C368DE2242}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D21475D1-F1C6-469C-851D-F1C368DE2242}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
