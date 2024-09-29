@@ -1,0 +1,6 @@
+﻿services:
+  movie.api:
+    image: movie.api
+    build:
+      context: .
+      dockerfile: Movie.Api/Dockerfile

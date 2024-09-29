@@ -28,7 +28,7 @@ public  class MovieFactory
                 e.Title = f.Lorem.Sentence();
                 e.Genre = f.Lorem.Words(3).ToArray();
                 e.Director = f.Person.FullName;
-                e.Actors = new string[f.Random.Number(1,6)].ToArray().Select(x => x = f.Person.FullName).ToArray();
+                e.Actors = f.Lorem.Words(3).ToArray();
                 e.Rating = f.Random.Double(1, 10);
             }
             );

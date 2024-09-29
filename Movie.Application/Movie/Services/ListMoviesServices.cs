@@ -9,7 +9,7 @@ public class ListMoviesServices(IMovieRepository movieRepository) :IListMoviesSe
 {
     public MovieEntity[] HandleCommand(GetAllMovies command)
     {
-        var movies= movieRepository.GetAll(command.Page, command.Size, command.Filter).ToArray();
+        var movies= movieRepository.GetAll(command.Page, command.Size, command.Filter);
         if (movies is null)
         {
             throw new EntryPointNotFoundException("Movies not found");
