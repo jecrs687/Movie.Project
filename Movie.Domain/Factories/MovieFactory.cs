@@ -26,7 +26,9 @@ public  class MovieFactory
             {
                 e.Year = f.Date.Past(20).Year;
                 e.Title = f.Lorem.Sentence();
-                e.Genre = f.Lorem.Words(3).ToArray();
+                e.Genre = f.PickRandom(new string[] { "Action", "Comedy", "Drama", "Horror", "Romance" }, 
+                    f.Random.Number(1, 3)
+                    ).ToArray();
                 e.Director = f.Person.FullName;
                 e.Actors = f.Lorem.Words(3).ToArray();
                 e.Rating = f.Random.Double(1, 10);
